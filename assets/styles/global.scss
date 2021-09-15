@@ -1,0 +1,148 @@
+/* IMPORT FICHIER NORMALIZE ET VARIABLES*/
+@import "./normalize.css";
+@import "./variables";
+
+
+body {
+    width:100vw;
+    background-color: $primary;
+
+    /* header image*/
+    header{
+        background-image: url('../images/logo.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 389px;
+        height: 178.5px;
+        margin: 40px auto 41.75px auto;
+    }
+    /* MAIN */
+    main{
+
+        margin: auto;
+        section{
+            /* Chapo */
+            h1{
+
+                margin: 0 auto 60px auto;
+                padding: auto;
+                text-align: center;
+                max-width: 700px;
+                height: 60px;
+                font-family: $font-roboto-regular;
+                font-weight: normal;
+                font-size:22px;
+                line-height: 26px;
+    
+            }
+            //Pour Affichage du message de confirmation
+            p{
+                color:red;
+                text-align: center;
+            }
+            /* FORM */
+            .form-user-registration{
+
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: left;
+
+
+                //On récupère le 4 éléments du formulaire pour l'afficher différemment
+                :nth-child(4){
+
+                    display: flex;
+                    flex-direction:row-reverse;
+                   
+                    input{
+                        width: 20px;
+                        height: 20px;
+                        background: #FFFFFF;
+                        border: 1px solid #000000;
+                        margin: auto;
+                        
+                    }
+                    label{
+                        
+                        font-family: $font-roboto-regular;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin: 0 0 0 20px;
+                        max-width: 340px;
+                        height: 40px;
+                        
+                    }
+                    label::after{
+
+                        content: "";  
+                    }
+                }
+                div{
+                   
+                    display: flex;
+                    flex-direction: column;
+
+                    label{
+                        
+                        font-family: $font-roboto-bold;
+                        font-size: 16px;
+                        line-height: 19px;
+                        height: 30px;
+                        align-items: center;
+                        display: flex;
+                        
+                    }
+
+                    label::after{
+
+                        content: "*";
+                        color: red;
+
+                    }
+
+                    input{
+                        
+                        font-family: $font-roboto-regular;
+                        width: 268px;
+                        height: 38px;
+                        background: #FFFFFF;
+                        border: 1px solid #000000;
+                        margin-bottom:25px
+                    }
+                    //Bouton de Validation
+                    button{
+                        margin-top: 48px;
+                        font-family: $font-roboto-bold;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        line-height: 19px;
+                        width: 350px;
+                        height: 40px;
+                        background: #DB6708;
+                        border: none;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                      
+                    }
+
+                    ul{
+                        width: 200px;
+                        
+                        li{
+                           list-style: none;
+                           color: red;
+                        }
+                    }
+
+                }
+            }
+        }
+        
+    }
+    
+    
+}
+
+

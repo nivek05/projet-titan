@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Titan - inscription{% endblock %}
+
+{% block body %}
+    
+    
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <h1>Inscrivez-vous pour faire partie des premiers touristes de Titan,<br />la fameuse lune de Saturne !</h1>
+            <p>
+            {% for message in app.flashes('message')%}
+                {{message}}
+            {% endfor %}
+            </p>
+            {{ form_start(formUserRegistration,{'attr':{'class': 'form-user-registration'}}) }}
+                
+            {{ form_end(formUserRegistration) }}
+        </section>
+        
+    </main>
+    
+{% endblock %}

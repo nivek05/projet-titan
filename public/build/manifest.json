@@ -1,0 +1,9 @@
+{
+  "build/app.css": "http://localhost:8080/build/app.css",
+  "build/app.js": "http://localhost:8080/build/app.js",
+  "build/runtime.js": "http://localhost:8080/build/runtime.js",
+  "build/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_we-9e4509.js": "http://localhost:8080/build/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_we-9e4509.js",
+  "build/fonts/Roboto-Regular.ttf": "http://localhost:8080/build/fonts/Roboto-Regular.a8d6ac03.ttf",
+  "build/fonts/Roboto-Bold.ttf": "http://localhost:8080/build/fonts/Roboto-Bold.75371f53.ttf",
+  "build/images/logo.jpg": "http://localhost:8080/build/images/logo.87132c43.jpg"
+}

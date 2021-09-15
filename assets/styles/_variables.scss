@@ -1,0 +1,25 @@
+
+/* DEFINITION DES FONTS */
+@font-face{
+    font-family: 'roboto-regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face{
+    font-family: 'roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: bold;
+    font-stretch: normal;
+}
+
+//customize variables font
+$font-roboto-regular : 'roboto-regular', sans-serif;
+$font-roboto-bold : 'Roboto-Bold', sans-serif;
+
+//color
+$primary: white(white, 20%);
+$button-color: orangered(orangered,20%);
